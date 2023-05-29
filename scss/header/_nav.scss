@@ -1,0 +1,27 @@
+.navegador {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.barra_de_navegacion li a {
+    text-decoration: none;
+    color: inherit
+}
+
+.items {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    border-left: 1px solid rgb(255, 255, 255);
+    margin: .5rem;
+
+}

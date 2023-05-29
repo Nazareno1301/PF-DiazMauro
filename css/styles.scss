@@ -1,0 +1,30 @@
+/* RESET */
+
+@import "../scss/reset/reset" ;
+
+/* LAYOUT */
+
+@import "../scss/layout/flex";
+
+/* HEADER */
+
+@import "../scss/header/header";
+@import "../scss/header/nav";
+@import "../scss/header/logo";
+
+/* BODY */
+
+@import "../scss/body/body";
+@import "../scss/componentes/componentes";
+
+/* FOOTER */
+
+@import "../scss/footer/iconos";
+@import "../scss/footer/texto";
+
+/* MEDIAS QUERIES */
+@import "../scss/mediasqueries/tablet";
+@import "../scss/mediasqueries/celular";
+
+
+

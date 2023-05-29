@@ -1,0 +1,23 @@
+
+#fin {
+    font-family: 'Alkatra', cursive;
+    background-image: url("../imagenes/pexels-photo-2117938.jpeg");
+    background-size: cover;
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    align-items: center;
+}
+.pie-de-pagina a {
+    background: beige;
+    color: black;
+    font-family: 'Castoro Titling', cursive;
+    display: inline;
+    border: 2px double black;
+    border-radius: 10px;
+    padding: 4px;
+}
+

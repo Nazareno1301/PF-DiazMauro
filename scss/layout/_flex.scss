@@ -1,0 +1,106 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.parrafo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 2rem;
+}
+
+.palabras {
+    display: flex;
+    justify-content: center;
+    font-family: 'Castoro Titling', cursive;
+    font-size: 20px;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+}
+
+.fotos div {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin: 2rem;
+
+}
+
+.fotos2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+
+}
+
+.contendora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.opciones {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cada-opcion {
+    display: flex;
+    /*  gap: 10px */
+    ;
+}
+
+.contacto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.col-12 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: end;
+    color: black;
+    background: #F0F0F0;
+    border: 3px solid white;
+
+}
+.pie-de-pagina {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
