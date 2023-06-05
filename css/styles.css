@@ -306,24 +306,32 @@ h2 {
 }
 /* CELULAR */
 @media screen and (max-width: 475px) {
-  .navegador ul li {
+  .navegador .barra_de_navegacion {
+    width: 80%;
+    margin-left: 0;
+    padding-left: 0%;
+  }
+  .navegador .barra_de_navegacion .items {
     display: block;
     width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0.5rem 0rem;
+    font-size: 1rem;
+    text-align: center;
   }
   header {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .barra_de_navegacion {
-    width: 100%;
+  header a {
+    display: flex;
+    justify-content: center;
+  }
+  header a #log {
     margin-left: 0;
   }
-  .items {
-    border: 2px solid rgb(0, 0, 0);
-    font-size: 1rem;
-    border-left: none;
-    margin: 5px 0;
-    text-align: center;
+  .fotos div {
+    margin: 0rem;
   }
 }/*# sourceMappingURL=styles.css.map */
