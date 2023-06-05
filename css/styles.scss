@@ -5,6 +5,7 @@
 /* LAYOUT */
 
 @import "../scss/layout/flex";
+@import "../scss/layout/grid";
 
 /* HEADER */
 
@@ -20,7 +21,7 @@
 /* FOOTER */
 
 @import "../scss/footer/iconos";
-@import "../scss/footer/texto";
+@import "../scss/footer/footer";
 
 /* MEDIAS QUERIES */
 @import "../scss/mediasqueries/tablet";

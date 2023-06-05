@@ -25,17 +25,16 @@ main {
 .fotos {
     display: flex;
     justify-content: center;
-
     width: 100%;
 
-}
-
-.fotos div {
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    width: 100%;
-    margin: 2rem;
+    div {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        margin: 2rem;
+    
+    }
 
 }
 
@@ -51,56 +50,27 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    width: 100%;
 }
-
-.opciones {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.cada-opcion {
-    display: flex;
-    /*  gap: 10px */
-    ;
-}
-
 .contacto {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.formulario {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.col-12 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.btn {
-    display: flex;
-    justify-content: end;
-    color: black;
-    background: #F0F0F0;
-    border: 3px solid white;
-
-}
-.pie-de-pagina {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .mb-3 {
+        width: 80%
+    }
+    .col-12 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+            .btn {
+                display: flex;
+                justify-content: end;
+                color: black;
+                background: #F0F0F0;
+                border: 3px solid white;
+            
+            }
+    }
 }

@@ -1,0 +1,14 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+        div{
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Alkatra', cursive;
+        background: #393646;
+        padding: 1rem;
+        border-radius: 20px;
+        border: 3px solid white;
+        color: white;
+    }
+}
