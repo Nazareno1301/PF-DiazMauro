@@ -3,7 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} /* LAYOUT */
+}
+
+/* UTILITIES y MIXIN */
+/* LAYOUT */
 main {
   display: flex;
   flex-direction: column;
@@ -13,7 +16,9 @@ main {
 
 .parrafo {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  flex-direction: row;
   text-align: center;
   font-size: 30px;
   color: white;
@@ -29,7 +34,9 @@ main {
 
 .fotos {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  flex-direction: row;
   width: 100%;
 }
 .fotos div {
@@ -41,9 +48,11 @@ main {
 }
 
 .fotos2 {
-  width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  width: 100%;
+  flex-direction: row;
   gap: 3%;
 }
 
@@ -84,7 +93,7 @@ main {
   font-size: 20px;
   text-align: center;
   font-family: "Alkatra", cursive;
-  background: #393646;
+  background: linear-gradient(to left, #000000, #434343);
   padding: 1rem;
   border-radius: 20px;
   border: 3px solid white;
@@ -139,9 +148,7 @@ body {
   background-size: cover;
   color: white;
   margin: 0;
-  /*  background-color: rgb(12, 11, 11); */
-  background: #0f0c29; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
 }
 
 h1 {
@@ -185,13 +192,13 @@ h2 {
   font-family: "Alkatra", cursive;
   width: 40rem;
   height: 30rem;
-  background: #393646;
+  background: linear-gradient(to left, #000000, #434343);
   padding: 0.5rem;
   box-sizing: border-box;
   border-radius: 20px;
   border: 3px solid white;
-  display: flex;
   color: white;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px;
@@ -264,7 +271,6 @@ h2 {
     justify-content: center;
     align-items: center;
     width: 80%;
-    Gap: 3%;
   }
   .texto {
     font-size: 16px;

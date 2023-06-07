@@ -1,6 +1,13 @@
 /* RESET */
 
-@import "../scss/reset/reset" ;
+@import "../scss/reset/reset";
+
+
+/* UTILITIES y MIXIN */
+
+@import "../scss/utilities/colores";
+@import "../scss/mixins/mixins";
+
 
 /* LAYOUT */
 
@@ -26,6 +33,3 @@
 /* MEDIAS QUERIES */
 @import "../scss/mediasqueries/tablet";
 @import "../scss/mediasqueries/celular";
-
-
-

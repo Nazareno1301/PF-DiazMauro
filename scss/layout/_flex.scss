@@ -1,14 +1,12 @@
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex-column-center;
     align-items: center;
 
 }
 
 .parrafo {
-    display: flex;
-    justify-content: center;
+    @include flex-column-center;
+    flex-direction: row;
     text-align: center;
     font-size: 30px;
     color: white;
@@ -23,8 +21,8 @@ main {
 }
 
 .fotos {
-    display: flex;
-    justify-content: center;
+    @include flex-column-center;
+    flex-direction: row;
     width: 100%;
 
     div {
@@ -39,9 +37,9 @@ main {
 }
 
 .fotos2 {
+    @include flex-column-center;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    flex-direction: row;
     gap: 3%;
 
 }

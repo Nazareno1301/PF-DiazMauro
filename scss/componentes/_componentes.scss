@@ -36,13 +36,13 @@ h2 {
     font-family: 'Alkatra', cursive;
     width: 40rem;
     height: 30rem;
-    background: #393646;
+    background:map-get($paleta_de_colores, terciario );
     padding: .5rem;
     box-sizing: border-box;
     border-radius: 20px;
     border: 3px solid white;
-    display: flex;
     color: white;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;

@@ -1,0 +1,9 @@
+$primario:linear-gradient(to left, #292E49, #536976, #BBD2C5);
+$secundario:  linear-gradient(to right, #24243e, #302b63, #0f0c29);
+$terciario: linear-gradient(to left, #000000, #434343);
+
+$paleta_de_colores:(
+primario:$primario,
+secundario:$secundario,
+terciario: $terciario,
+);

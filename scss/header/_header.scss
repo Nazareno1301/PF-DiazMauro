@@ -1,5 +1,5 @@
 header {
-    background: linear-gradient(to left, #292E49, #536976, #BBD2C5);
+    background:map-get($paleta_de_colores, primario );
     padding-top: 19px;
     display: flex;
     width: 100%;
