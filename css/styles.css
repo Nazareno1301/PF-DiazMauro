@@ -188,6 +188,10 @@ h2 {
 .card {
   text-align: center;
   color: black;
+  width: 18rem;
+}
+.card img {
+  height: 70%;
 }
 
 .texto {
@@ -206,6 +210,17 @@ h2 {
   justify-content: center;
   align-items: center;
   margin: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-4 {
+  width: 30%;
+  margin: 1rem;
 }
 
 /* FOOTER */
@@ -271,10 +286,11 @@ h2 {
   }
   .fotos2 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .col-4 {
+    width: 40%;
   }
   .texto {
     font-size: 16px;
@@ -315,7 +331,7 @@ h2 {
   }
 }
 /* CELULAR */
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 600px) {
   .navegador .barra_de_navegacion {
     width: 80%;
     margin-left: 0;

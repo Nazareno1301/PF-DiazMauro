@@ -28,7 +28,12 @@ h2 {
 .card {
     text-align: center;
     color:black;
+    width: 18rem;
+        img{
+            height: 70%;
+        }
 }
+
 .texto {
 
     font-size: 20px;
@@ -46,4 +51,13 @@ h2 {
     justify-content: center;
     align-items: center;
     margin: 10px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col-4{
+    width: 30%;
+    margin:1rem;
 }
